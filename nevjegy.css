@@ -8,17 +8,43 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: url('assets/9kh3G8L.jpg') no-repeat center center fixed;
+  height: 90vh;
+  background: url('assets/háttérkép.jpg') no-repeat center center fixed;
   background-size: cover;
 }
+#menu {
+     background-color: hsla(0, 0%, 100%, .6);
+     width: 150px;    /*szélesség*/
+     height:110px;   /*magasság*/
+     margin:40px;    /*margó*/
+     padding: 20px 20px;   /*belső kitöltés*/ 
+     float: left;              /*balra lebegtetés*/
+     text-align: center;        /*szöveg igazítása balra*/
+     font-weight:bold;         /*félkövér kiemelés*/
+     border:3px solid red;   /*szegély beállítás*/
+	   border-radius: 100px;
+}
+.menuelem {
+     margin-left: 0px;
+     list-style-type: none;
+}
+#tel-mail {
+	   color: blue;
+	   font-weight:bold; 
+}
+a:hover {
+    color: lawngreen;
+    font-size: 22px;
+} 
+
 .profile-card {
   width: 480px;
-  max-width: calc(100vw - 10px);
-  background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 4px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  max-width: calc(100vw - 40px);
+  background-color: hsla(0, 0%, 100%, .4);
+  border-radius: 30px;
+  box-shadow: hsla(0, 30%, 80%, .67) 10px 10px 80px;
 }
+
 h1 {
    font-size: 30px;
 }
@@ -29,49 +55,62 @@ h1 {
   width: 90%;
   margin: 0 auto;
 }
+
 img {
-  width: 140px;
-  height: 220px;
+  width: 100px;
+  height: 150px;
   border-radius: 46%;
   padding: 1px;
   background-color: #666;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
   filter: grayscale(50%)
 }
 img:hover {
   transform: scale(1.1);
   filter: grayscale(10%)
 }
+
 .profile-image {
-  margin-top: -60px;
-} 
+  margin-top: -50px;
+}
+
 ul {
   list-style-type: none;
+	font-size: 18px;
 }
-li {
+section li {
   display: inline;
+	font-size: 32px;
 }
+
 .head, .about {
   margin-bottom: 10%; 
 }
 .content {
   padding: 5% 10%;
-  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  border-top: 3px solid hsla(0, 0%, 20%, .8);
 }
+
 .name-headline {
   margin: 5% 5%;
   padding: 5% 5%;
 }
+
 .about {
   margin: 5% 5%;
   padding: 5% 5%;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .links {
   margin: 5% 5%;
   padding: 4%;
 }
+
 img:hover {
-   transform: rotate(720deg);	
-}
+  transform: rotate(720deg);
+	width: 140px;
+  height: 200px;
+} 
+

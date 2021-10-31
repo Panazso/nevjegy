@@ -8,18 +8,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   background: url('assets/háttérkép.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 #menu {
-     background-color: hsla(0, 0%, 100%, .6);
+     background-color: hsla(0, 0%, 100%, .4);
      width: 150px;    /*szélesség*/
      height:110px;   /*magasság*/
-     margin:40px;    /*margó*/
+     margin: 5px;    /*margó*/
      padding: 20px 20px;   /*belső kitöltés*/ 
      float: left;              /*balra lebegtetés*/
-     text-align: center;        /*szöveg igazítása balra*/
+     text-align: center;        /*szöveg igazítása*/
      font-weight:bold;         /*félkövér kiemelés*/
      border:3px solid red;   /*szegély beállítás*/
 	   border-radius: 100px;
@@ -30,7 +30,8 @@ body {
 }
 #tel-mail {
 	   color: blue;
-	   font-weight:bold; 
+	   font-weight:bold;
+	
 }
 a:hover {
     color: lawngreen;
@@ -38,8 +39,8 @@ a:hover {
 } 
 
 .profile-card {
-  width: 480px;
-  max-width: calc(100vw - 40px);
+	width: 480px;
+  max-width: calc(100vw -20px);
   background-color: hsla(0, 0%, 100%, .4);
   border-radius: 30px;
   box-shadow: hsla(0, 30%, 80%, .67) 10px 10px 80px;
@@ -57,8 +58,8 @@ h1 {
 }
 
 img {
-  width: 100px;
-  height: 150px;
+  width: 140px;
+  height: 180px;
   border-radius: 46%;
   padding: 1px;
   background-color: #666;
@@ -71,7 +72,8 @@ img:hover {
 }
 
 .profile-image {
-  margin-top: -50px;
+  margin-top: 25px;
+	float: left;
 }
 
 ul {
@@ -110,7 +112,7 @@ section li {
 
 img:hover {
   transform: rotate(720deg);
-	width: 140px;
-  height: 200px;
+	width: 170px;
+  height: 240px;
 } 
 

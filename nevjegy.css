@@ -16,7 +16,6 @@ body {
      background-color: hsla(0, 0%, 100%, .4);
      width: 150px;    /*szélesség*/
      height:110px;   /*magasság*/
-     margin: 5px;    /*margó*/
      padding: 20px 20px;   /*belső kitöltés*/ 
      float: left;              /*balra lebegtetés*/
      text-align: center;        /*szöveg igazítása*/
@@ -78,7 +77,6 @@ img:hover {
 
 ul {
   list-style-type: none;
-	font-size: 18px;
 }
 section li {
   display: inline;
@@ -95,7 +93,7 @@ section li {
 
 .name-headline {
   margin: 5% 5%;
-  padding: 5% 5%;
+  padding: 5% 10%;
 }
 
 .about {

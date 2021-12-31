@@ -30,7 +30,7 @@ body {
 
 #tel-mail {
 	   color: blue;
-	   font-weight:bold;
+	   font-weight: bold;
 	
 }
 a:hover {
@@ -51,27 +51,22 @@ a:hover {
 
 @keyframes spin {
   from {
-		width: 10%;
-		height: 10%;
 		background-color: hsla(0, 0%, 0%, 1);
 		transform: rotateY(0deg);}
-    
-	to {
-		width: 480px;
-		height: 90%;
+  to {
 		background-color: hsla(0, 0%, 100%, .4);
 		transform: rotateY(-360deg);}
 }
 
 h1 {
-   font-size: 30px;
+   font-size: 28px;
 }
 .head, .links {
   text-align: center;
 }
 .head, .content {
   width: 90%;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
 img {
@@ -102,27 +97,27 @@ section li {
 }
 
 .head, .about {
-  margin-bottom: 10%; 
+  margin-bottom: 5%; 
 }
 .content {
-  padding: 5% 10%;
+  padding: 2% 10%;
   border-top: 3px solid hsla(0, 0%, 20%, .8);
 }
 
 .name-headline {
-  margin: 5% 5%;
-  padding: 5% 10%;
+  margin: 2% 5%;
+  padding: 2% 10%;
 }
 
 .about {
-  margin: 5% 5%;
-  padding: 5% 5%;
+  margin: 1% 5%;
+  padding: 1% 5%;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .links {
-  margin: 5% 5%;
+  margin: 1% 5%;
   padding: 4%;
 }
 
@@ -131,6 +126,5 @@ img:hover {
 	width: 170px;
   height: 240px;
 } 
-
 
 

@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url('assets/háttérkép.jpg') no-repeat center center fixed;
+	background: url('assets/háttérkép.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 #menu {
@@ -27,6 +27,7 @@ body {
      margin-left: 0px;
      list-style-type: none;
 }
+
 #tel-mail {
 	   color: blue;
 	   font-weight:bold;
@@ -38,12 +39,33 @@ a:hover {
 } 
 
 .profile-card {
-	width: 480px;
-  max-width: calc(100vw -20px);
+  width: 480px;
+	max-width: calc(100vw -20px);
   background-color: hsla(0, 0%, 100%, .4);
   border-radius: 30px;
   box-shadow: hsla(0, 30%, 80%, .67) 10px 10px 80px;
+	transition: all 0.6s ease-in-out;
+	animation-name: spin;
+	animation-duration: 1s;
+  
 }
+
+@keyframes spin {
+  from {
+		width: 10%;
+		height: 10%;
+		background-color: hsla(0, 0%, 100%, 1);
+		transform: rotate(0deg);}
+    
+	to {
+		width: 480px;
+		height: 90%;
+		background-color: hsla(0, 0%, 100%, .4);
+		transform: rotate(360deg);}
+}
+
+
+
 
 h1 {
    font-size: 30px;
@@ -113,4 +135,6 @@ img:hover {
 	width: 170px;
   height: 240px;
 } 
+
+
 
